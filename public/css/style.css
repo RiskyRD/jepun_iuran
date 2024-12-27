@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  width: 21cm;
+  height: 29.7cm;
+  box-sizing: border-box;
+  position: relative;
+}
+h1 {
+  font-size: 26pt;
+  line-height: 20pt;
+}
+h2 {
+  font-size: 20pt;
+}
+h3 {
+  font-size: 15pt;
+}
+p {
+  font-size: 9pt;
+}
+header {
+  padding: 0.8cm 2cm;
+  height: 2cm;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5cm;
+  color: white;
+  background-color: #343a40;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5cm;
+}
+.header-logo img {
+  height: 2cm;
+}
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+footer h3 {
+  text-align: right;
+  padding: 1cm 2cm;
+  border-top: 1px solid black;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+main {
+  padding: 0 2cm;
+}
+section {
+  margin-bottom: 0.2cm;
+}
+.section-title {
+  padding: 0.2cm 0.5cm;
+  color: white;
+  background-color: #343a40;
+  margin-bottom: 0.1cm;
+}
+section > div {
+  padding: 0 0.5cm;
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5cm;
+}
+.section-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.section-table td {
+  border-top: 1px solid #b6b6b6;
+}
+th {
+  text-align: left;
+}
+.section-table th,
+.section-table td {
+  padding: 0.2cm;
+}
+.table-align-right {
+  text-align: right;
+}
+tfoot td {
+  font-weight: bold;
+}
+.total-each {
+  margin-top: 0.5cm;
+  display: flex;
+  gap: 1pt;
+  align-items: center;
+  justify-content: end;
+  color: white;
+}
+.total-each-con {
+  height: 2.2cm;
+  display: flex;
+  gap: 1pt;
+  align-items: center;
+  color: white;
+}
+.total-each-con > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 0 0.8cm;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #343a40;
+}
+.total-each h1 {
+  line-height: 30pt;
+}
+.laba {
+  background-color: black !important;
+}
